@@ -1,0 +1,26 @@
+#status-indicators #status-breadcrumbs.breadcrumbs-container {
+    border-right: black 1px solid;
+    padding: 0;
+}
+
+#status-indicators #status-breadcrumbs.breadcrumbs-container .breadcrumb-item:last-of-type {
+    border-left: none !important;
+}
+
+#status-indicators #status-breadcrumbs.breadcrumbs-container .breadcrumb-item:hover, 
+#status-indicators #status-breadcrumbs.breadcrumbs-container .breadcrumb-item.current
+{
+    text-decoration: underline;
+}
+
+#status-indicators #status-breadcrumbs.breadcrumbs-container .breadcrumb-item {
+    border-left: 1px solid rgba(0, 0, 0, 0.09);
+    padding-left: 10px;
+    padding-right: 10px;
+    float:right;
+}
+
+#status-indicators #status-breadcrumbs.breadcrumbs-container.hidden{
+    display:none;
+    visibility: hidden;
+}

@@ -1,0 +1,8 @@
+{
+    "name": "jrkd.html-breadcrumbs",
+    "title": "HTML Breadcrumbs",
+    "description": "Adds the ability to navigate an HTML doc via jumping up parents in the HTML tree.",
+    "homepage": "https://github.com/jrkd",
+    "version": "0.0.1",
+    "author": "Jono"
+}
